@@ -1,0 +1,37 @@
+<app-header [back]="true" headerText="Quiz"></app-header>
+<ion-content [fullscreen]="true">
+  <div class="login">
+    <div class="login_icon"></div>
+    <div class="login_buttons">
+      <div style="display: flex; justify-content: flex-start">
+        <ion-label class="welcome"
+          >Ahora podrás comprobar tus conocimientos sobre electrostática con la
+          siguiente actividad. Lee detenidamente y selecciona la respuesta que
+          consideres correcta.</ion-label
+        >
+      </div>
+
+      <div class="one_button">
+        <p-button
+          type="submit"
+          (click)="showDialog()"
+          label="Empezar"
+        ></p-button>
+      </div>
+    </div>
+  </div>
+  <p-dialog
+    [showHeader]="false"
+    [modal]="true"
+    header="Title"
+    [(visible)]="display"
+  >
+    <ng-lottie
+      [options]="options"
+      (animationCreated)="onAnimate($event)"
+      (loopComplete)="onLoopComplete()"
+    >
+    </ng-lottie>
+  </p-dialog>
+</ion-content>
+<!-- (animationCreated)="onAnimate($event)" -->

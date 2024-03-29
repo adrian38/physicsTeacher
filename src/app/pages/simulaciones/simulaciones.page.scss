@@ -1,0 +1,9 @@
+.simulation-pre-row {
+  display: flex;
+  justify-content: space-between;
+  .simulation-pre-col {
+    padding: 0;
+    align-items: center;
+    text-align: center;
+  }
+}

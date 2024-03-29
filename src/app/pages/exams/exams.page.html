@@ -1,0 +1,14 @@
+<app-header [back]="true" headerText="Examenes"></app-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list style="margin-top: 7%">
+    <ion-item
+      *ngFor="let element of options; let i = index"
+      (click)="nextPage(i)"
+    >
+      <ion-label style="white-space: normal"> {{this.element.name}} </ion-label>
+
+      <ion-label> intento : {{this.element.intents}} </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

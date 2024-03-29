@@ -1,0 +1,50 @@
+.image-left {
+  width: 25vh;
+  max-width: 100px;
+  height: 25vh;
+  max-height: 100px;
+  padding: 5%;
+
+  img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 90%;
+    max-height: 90%;
+    border-radius: 2px;
+  }
+}
+
+.image-strech {
+  width: 25vh;
+  max-width: 100px;
+  height: 25vh;
+  max-height: 100px;
+  padding: 5%;
+
+  img {
+    flex-shrink: 0;
+    max-width: 98%;
+    min-height: 90%;
+    max-height: 90%;
+    border-radius: 2px;
+  }
+}
+
+.card-title {
+  text-align: center;
+  margin-top: 15%;
+  font-weight: 500;
+  color: black;
+  font-size: x-large;
+  font-family: "Helvetica-Md";
+}
+
+.text-helvetica-medium {
+  font-family: "Helvetica-Md" !important;
+  font-size: 21px;
+}
+
+ion-card {
+  // border: 1px solid #63b5f6;
+  box-shadow: rgba(99, 181, 246, 0.35) 0px 5px 15px;
+}

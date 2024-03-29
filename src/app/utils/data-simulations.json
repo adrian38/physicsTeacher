@@ -1,0 +1,100 @@
+[
+  {
+    "id": "1",
+    "name": "Cargas y campos",
+    "title": "En esta simulación podrás:",
+    "link": "https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_es.html",
+    "username": "test username",
+    "information": [
+      "• Observar el campo eléctrico generado por las cargas positivas y negativas.",
+      "• Medir la intensidad y dirección del campo eléctrico en cualquier posición en el plano.",
+      "• Utilizar las herramientas a tu disposición para medir distancias y graficar líneas equipotenciales."
+    ],
+    "tutorial_title": "Determinación de la relación entre la distancia y la intensidad del campo electrostático",
+    "tutorial_objective": "Determinación de la relación entre la distancia y la intensidad del campo electrostático.",
+    "tutorial_information": [
+      "• La simulación cuenta con cargas puntuales de +1Nc y -1Nc, que puede ubicar en cualquier parte de la pantalla, se recomienda superponerlas para lograr un campo más intenso.",
+      "• Dispone de una grilla y una cinta métrica.",
+      "• Cuenta con una herramienta para dibujar superficies equipotenciales y un sensor."
+    ]
+  },
+
+  {
+    "id": "2",
+    "name": "Ley de Faraday",
+    "title": "En esta simulación podrás:",
+    "link": "https://phet.colorado.edu/sims/html/faradays-law/latest/faradays-law_es.html",
+    "username": "test username",
+    "information": [
+      "• Visualizar las líneas de campo magnético que genera un imán.",
+      "• Generar corriente inducida.",
+      "• Observar la magnitud y polaridad de la FEM inducida."
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Ley de Ohm",
+    "title": "En esta simulación podrás:",
+    "link": "https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_es.html",
+    "username": "test username",
+    "information": [
+      "• Modificar los valores de voltaje y resistencia para un circuito simple.",
+      "• Visualizar a través de la Ley de Ohm la relación entre las magnitudes de resistencia, voltaje y corriente."
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Ley de Coulomb",
+    "title": "En esta simulación podrás:",
+    "link": "https://phet.colorado.edu/sims/html/coulombs-law/latest/coulombs-law_es.html",
+    "username": "test username",
+    "information": [
+      "• Visualizar la fuerza electrostática que dos cargas ejercen una sobre otra.",
+      "• Ajustar la magnitud de las cargas y su separación.",
+      "• Estudiar la relación existente entre la magnitud de las cargas y su distancia, dada por la Ley de Coulomb."
+    ]
+  },
+
+  {
+    "id": "5",
+    "name": "Kit de Construcción de Circuitos: CD - Laboratorio Virtual",
+    "title": "En esta simulación podrás:",
+    "link": "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc-virtual-lab/latest/circuit-construction-kit-dc-virtual-lab_es.html",
+    "username": "test username",
+    "information": [
+      "• Construir un circuito bajo el régimen de corriente directa.",
+      "• Medir valores de corriente y voltaje en los componentes y en los segmentos del circuito.",
+      "• Visualizar el circuito tanto para componentes realísticos como esquemáticos."
+    ],
+    "tutorial_title": "Determinación de la resistencia interna de la fuente",
+    "tutorial_objective": "Determinar la resistencia interna de la fuente de corriente directa, dada una configuración de circuito determinada.",
+    "tutorial_information": [
+      "• En la simulación se presenta un circuito previamente ensamblado por el profesor.",
+      "• Para la medición de voltaje y corriente, en la simulación puede disponer de dos voltímetros y hasta seis amperímetros."
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Resistencia en un alambre",
+    "title": "En esta simulación podrás:",
+    "link": "https://phet.colorado.edu/sims/html/resistance-in-a-wire/latest/resistance-in-a-wire_es.html",
+    "username": "test username",
+    "information": [
+      "• Modificar el valor numérico de las magnitudes que se utilizan para caracterizar la resistencia de los materiales al paso de la corriente eléctrica.",
+      "• Visualizar los elementos que caracterizan la resistencia en un material."
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Lab de condensadores: Intro",
+    "title": "En esta simulación podrás:",
+    "link": "https://phet.colorado.edu/sims/html/capacitor-lab-basics/latest/capacitor-lab-basics_es.html",
+    "username": "test username",
+    "information": [
+      "• Manipular el valor del voltaje suministrado por la fuente.",
+      "• Modificar las dimensiones del capacitor.",
+      "• Observar el comportamiento de las magnitudes ante los cambios.",
+      "• Medir el voltaje en los dispositivos."
+    ]
+  }
+]
